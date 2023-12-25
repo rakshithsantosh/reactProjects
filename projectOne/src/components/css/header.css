@@ -1,0 +1,34 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    height:80px;
+    background-color: aliceblue;
+}
+
+.wrapper image{
+    margin:30px;
+    margin-top:5px;
+}
+
+.navlinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left:200px;
+}
+
+.navlinks div{
+    font-size: 20px;
+    margin: 15px;
+}
+
+.links{
+    margin:30px;
+    margin-left:100px;
+}
+
+.carousal{
+    height:1000px;
+}
+
+
