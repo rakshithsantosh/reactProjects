@@ -1,0 +1,22 @@
+
+nav{
+    height:72px;
+    padding:0 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo img{
+    margin-top: 5px;
+    height:60px;
+    border-radius: 10%;
+    width:50px;
+  }
+  
+  nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap:24px;
+    font-weight: 500;
+  }
