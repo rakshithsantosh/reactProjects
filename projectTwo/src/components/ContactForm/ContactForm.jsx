@@ -18,6 +18,15 @@ const ContactForm = () => {
                 <label htmlFor="name">Name</label>
                 <input type="text" name="name" />
             </div>
+            <div className="form_control">
+                <label htmlFor="email">E Mail</label>
+                <input type="email" name="email" />
+            </div>
+            <div className="form_control" >
+                <label htmlFor="text" >Text</label>
+                <input name="text" style={{height:"120px"}}/>
+            </div>
+            <Button text="Submit" />
         </form>
       </section>
       <section>  
